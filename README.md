@@ -1,6 +1,6 @@
 # Natdiamonds and Natjewels Filter
 
-## Overview
+## Overview of the first code (blocknumber.mjs)
 
 This project is based on JavaScript and was created to get information about Natdiamonds and Natjewels thanks to the TAP Protocol API Swagger.
 
@@ -13,6 +13,10 @@ This is just a simple code meant to showcase how to call URLs from the Swagger f
 For production deployment, you will want to launch your own Tapreader node and call the matching API.
 
 [Tapreader API Documentation](https://docs.ordinalsbot.com/tap-protocol/tap-reader-api)
+
+## Overview of the second code (calckaratscore.mjs)
+
+This file takes a bitcoin address, retrieve all owned natdiamonds and natjewels items and calculates the total natkarat score as per the natdiamonds whitepaper (see below).
 
 ## Digital Matter Theory (DMT)
 If you want to know more about DMT here the gitbook: https://digital-matter-theory.gitbook.io/digital-matter-theory
